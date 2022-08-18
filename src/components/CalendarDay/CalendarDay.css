@@ -1,0 +1,23 @@
+.CalendarDay {
+    width: 13%;
+    height: 15%;
+    padding: 5px;
+}
+
+.CalendarDay .day {
+    display: flex;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 20px 0px #cac6c6;
+    background-color: #ffffffcc;
+    height: 100%;
+}
+
+.CalendarDay .day.emptyDay {
+    background-color: #9c9c9cab !important;
+}
+
+.CalendarDay .day.today {
+    border: 1px solid black;
+}

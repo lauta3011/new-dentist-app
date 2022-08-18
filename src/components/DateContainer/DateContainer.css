@@ -1,0 +1,17 @@
+.DateContainer {
+    position: absolute;
+    left: 15px;
+    width: 140px;
+    height: 45%;
+    border-radius: 15px;
+    padding: 8px 0;
+    color: #fff;
+    background: linear-gradient(#68c2c0, #e7fdff00);
+}
+
+.DateContainer h3 {
+    text-align: center;
+    margin: 0;
+    font-weight: 100;
+    font-size: 26px;
+}

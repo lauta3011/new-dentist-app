@@ -1,0 +1,31 @@
+.DateItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    margin: 10px 10px;
+    background: linear-gradient(to left, #69b0b8e3, #5c999ac9, #7c9699c7);
+    box-shadow: 0 4px 15px #00000054;
+    border-radius: 5px;
+    z-index: 2;
+}
+
+.DateItem .info {
+    width: 33%;
+}
+
+.DateItem .info span {
+    font-weight: 100;
+    color: #fff;
+}
+
+.DateItem .patient {
+    display: flex;
+    flex-direction: column;
+}
+
+.DateItem .time {
+    display: flex;
+    justify-content: end;
+    color: #fff;
+}

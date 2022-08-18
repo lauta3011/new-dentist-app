@@ -1,0 +1,20 @@
+.CalendarHeader {
+    display: flex;
+    align-items: center;
+}
+
+.Calendar img {
+    width: 30px;
+}
+
+.Calendar img.left {
+    transform: rotate(180deg);
+}
+
+.Calendar h3 {
+    width: 140px;
+    text-align: center;
+    margin: 0 5px;
+    font-size: 26px;
+    font-weight: 100;
+}

@@ -1,0 +1,14 @@
+.button {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.button input {
+    width: 50%;
+    font-size: 18px;
+    border: none;
+    height: 45px;
+    color: #fff;
+    background-color: #629094;
+}

@@ -1,0 +1,10 @@
+.Form {
+    background-color: #fcfcfc;
+    border-radius: 5px;
+    position: relative;
+    overflow: scroll;
+    margin-top: 15px;
+    padding: 0 15px 0 15px;
+    width: 80%;
+    box-shadow: 0 4px 30px #00000054;
+}
